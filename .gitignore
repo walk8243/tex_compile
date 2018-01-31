@@ -1,0 +1,8 @@
+# 全てのファイルを無視リストに登録
+**
+
+# 更新するファイルを除外する
+!/.gitignore
+!/README.md
+!/tex.sh
+!/tex_sample.tex
