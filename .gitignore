@@ -4,5 +4,6 @@
 # 更新するファイルを除外する
 !/.gitignore
 !/README.md
-!/tex.sh
+!/thesis.sh
+!/thesis.bat
 !/tex_sample.tex

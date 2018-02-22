@@ -5,10 +5,10 @@ if [ -n "$1" -a -r "${1}.tex" ]; then
 elif [ -n "$1" ]; then
   echo "指定されたtexファイルは存在しません。"
   exit 1
-elif [ -r "tex.tex" ]; then
-  filename="tex"
-elif [ -r "tex_sample.tex" ]; then
-  filename="tex_sample"
+elif [ -r "thesis.tex" ]; then
+  filename="thesis"
+elif [ -r "thesis_sample.tex" ]; then
+  filename="thesis_sample"
 else
   echo "texファイルを指定して下さい。"
   exit 1
